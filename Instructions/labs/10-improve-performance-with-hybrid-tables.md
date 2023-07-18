@@ -116,7 +116,7 @@ You will sign into the Power BI service and start a trial license in this task.
 
       ![](../images1/logintopowerbi4.png)
 
-	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial lic ense is sufficient. 
+	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial license is sufficient. 
 
 1. Do any remaining tasks to complete the trial setup.
 
