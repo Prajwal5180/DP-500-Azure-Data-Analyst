@@ -72,7 +72,7 @@ In this task, you will set up Power BI Desktop.
 
       ![](../images/logintopowerbi01.png)
       
-1. If Prompted Select **work or school (1)** account and click **contiune (2)** on Let's get you signed in page.
+1. If Prompted Select **work or school (1)** account and click **continue (2)** on Let's get you signed in page.
 
       ![](../images/logintopowerbi011.png)
 	
@@ -116,7 +116,7 @@ You will sign into the Power BI service and start a trial license in this task.
 
       ![](../images1/logintopowerbi4.png)
 
-	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial lic ense is sufficient. 
+	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial license is sufficient. 
 
 1. Do any remaining tasks to complete the trial setup.
 
@@ -264,7 +264,7 @@ In this task, you will add two parameters.
 	>**Note**: Incremental refresh requires that the table contain a date column of date/time or integer data type with the value formatted as yyyymmdd.
 	>**Note**: To set up incremental refresh, you must create parameters that Power BI will use to filter this column to create table partitions.
 
-4. To create a parameter, on the **Home** ribbon tab, select the **Manager Parameters** icon.
+4. To create a parameter, on the **Home** ribbon tab, select the **Manage Parameters** icon.
 
 	![](../images1/dp500-10-14.png)
 
@@ -280,7 +280,7 @@ In this task, you will add two parameters.
 
 	![](../images1/dp500-10-16.png)
 	
-	>**Note**: For non-MM-DD-YYY format locations, the date should be entered as 1/6/2022.
+	>**Note**: For non-MM-DD-YYYY format locations, the date should be entered as 1/6/2022.
         >**Note**: While setting up the parameters, you can use arbitrary values. Power BI will update parameter values when it creates and manages the partitions. In this lab, you'll set a range for the month of June 2022.
 
 
@@ -350,7 +350,7 @@ In this task, you will set up the incremental refresh policy for the **Sales** t
 
 	>**Note:Incrementally refresh data starting:** This setting determines the incremental refresh period in which all rows with a date/time in that period are included in the refresh partition(s) and refreshed with each refresh operation.
 
-	> **Note:Get the latest data in real time with DirectQuery** This setting enables fetching the latest changes from the selected table at the data source beyond the incremental refresh period by using DirectQuery. All rows with a date/time later than the incremental refresh period are included in a DirectQuery partition and fetched from the data source with every dataset query. This setting makes the table a hybrid table because it will contain import partitions and one DirectQuery partition.
+	> **Note:Get the latest data in real time with DirectQuery:** This setting enables fetching the latest changes from the selected table at the data source beyond the incremental refresh period by using DirectQuery. All rows with a date/time later than the incremental refresh period are included in a DirectQuery partition and fetched from the data source with every dataset query. This setting makes the table a hybrid table because it will contain import partitions and one DirectQuery partition.
 
 3. **Save** the Power BI Desktop file.
 
