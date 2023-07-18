@@ -48,7 +48,7 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 	
 8. To close the file, on the **File** menu, select **Close**.
 
-9. Press **Ctrl+O** to access the **Open File** window. Select **2-InsertOrders (1)** sql file and click **Opene (2)**
+9. Press **Ctrl+O** to access the **Open File** window. Select **2-InsertOrders (1)** sql file and click **Open (2)**
 
      ![](../images1/dp-500-lab14-4.png)
 	
