@@ -88,7 +88,7 @@ In this task, you will review the pre-developed report.
 
 1. In Power BI Desktop, review the report page.
 
-    ![](../images1/dp500_14-09.png)
+    ![](../images1/Mod14-Ex1-Task3-Step1.png)
 
     >**Note**: This report page has a title and two visuals. The card visual displays the number of sales orders, while the bar chart visual displays the sales amount for each bike subcategory.
 
